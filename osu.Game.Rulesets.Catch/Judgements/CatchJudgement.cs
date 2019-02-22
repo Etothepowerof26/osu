@@ -16,9 +16,9 @@ namespace osu.Game.Rulesets.Catch.Judgements
             switch (result)
             {
                 default:
-                    return 0;
-                case HitResult.Perfect:
                     return 300;
+                case HitResult.Perfect:
+                    return 0;
             }
         }
 
@@ -27,9 +27,9 @@ namespace osu.Game.Rulesets.Catch.Judgements
             switch (result)
             {
                 default:
-                    return 0;
-                case HitResult.Perfect:
                     return 10.2;
+                case HitResult.Perfect:
+                    return 0;
             }
         }
 
